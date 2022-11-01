@@ -251,7 +251,12 @@ footer{
     text-transform: capitalize;
     padding-top: 40px;
 }
-@media(max-width: 768px){
+@media(max-width: 768px){ .logo{
+        width: 150px;
+    }
+    .cta{
+        width: 120px;
+    }
     .header{
         padding: 30px 25px;
         text-align: center;
